@@ -1,1 +1,67 @@
 
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>zombie - $$$</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Symbolized">
+        <meta property="og:title" content="Symbolized">
+        <meta property="og:description" content="ae">
+        <meta property="og:url" content="https://symbolized.xyz"/>
+         <meta property="og:image" content="dafire.png">
+        <meta name="theme-color" content="#4a1511">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.2;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+                    <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span>
+                </label>
+            </div>
+            <audio loop preload="auto" id="audio">
+                <source src="deucefade.mp3" type="audio/mp3">
+            </audio>
+            <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+                <source src="bg-video.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">Symbolized</h1>
+              <!-- <div class='test-fix'>
+                <a href="/login/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #6bff75;">login</a>
+                /
+                <a href="/register/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #6bff75;">register</a>
+              </div> -->
+                <p style="font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">Server : symbolized.game.nfoservers.com:27015.</p>
+                -
+              <div class='test-fix'>
+                <a href="https://discord.gg/jq43u2WTtD" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">discord</a>
+                /
+                <a href="https://stats.uptimerobot.com/MXDj1C2qZz" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">status</a>
+                /
+                <a href="http://symbolized.site.nfoservers.com/sb/index.php?p=home" style="text-decoration: none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">sourcebans</a>
+                /
+                <a href="http://symbolized.site.nfoservers.com/server/demos/" style="text-decoration: none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">demos</a>
+              </div>
+            </section>
+            <div style="position: relative">
+                <p style="position: fixed; bottom: 0; width:100%; text-align: center; font-family: Segoe UI; color: white; text-shadow: 0 0 0.40em #bababa;">© zombie - 2021 | song: 01Dxmi - FALL4TMR (ft. nervyyy)</p>
+            </div>
+        </main>
+    </body>
