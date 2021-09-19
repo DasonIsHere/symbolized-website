@@ -90,7 +90,7 @@
     line-height: 0.0;
     color: #cccccc;
     display: block;
-    text-align: center;
+    text-align: left;
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
