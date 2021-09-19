@@ -1,0 +1,2 @@
+# symbolized
+symbolized.xyz
