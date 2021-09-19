@@ -62,7 +62,7 @@
     background: rgba(0, 0, 0, 0);
     display: grid;
     place-content: center;
-    text-align: center;
+    text-align: left;
     color: rgb(255, 255, 255);
   }
   .text-content h1 {
@@ -89,7 +89,7 @@
     line-height: 0.0;
     color: #cccccc;
     display: block;
-    text-align: left;
+    text-align: center;
   }
   #overlay-toggle:checked ~ .overlay {
     animation-fill-mode: forwards;
