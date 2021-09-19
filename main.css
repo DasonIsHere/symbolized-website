@@ -18,6 +18,18 @@
   body {
     background: rgb(17, 17, 17);
   }
+  video {
+ position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index:-1;
+        filter:opacity(60%);
+  transform: translateX(10%) translateY(40%);}
+  }
   #overlay-toggle {
     position:absolute;
     display: none;
@@ -88,7 +100,7 @@
     padding-left: 10px;
     font-size: 1.3rem;
     line-height: 0.0;
-    color: #cccccc;
+    color: #000000;
     display: block;
     text-align: center;
   }
